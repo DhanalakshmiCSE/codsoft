@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jannani Textiles & Vasatha Bhavan</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        header {
+            background: linear-gradient(135deg, gray, #de5d83);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: gray;
+        }
+        nav a {
+            color: #fff;
+            padding: 15px 20px;
+            text-decoration: none;
+            display: block;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: gray;
+        }
+        .hero {
+            background: url('1.jpg') no-repeat center center/cover;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            text-align: center;
+            position: relative;
+        }
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .hero h2 {
+            font-size: 3em;
+            margin: 0;
+            padding: 20px;
+            z-index: 1;
+            position: relative;
+        }
+        .content {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color:whitesmoke;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            color: gray;
+            border-bottom: 2px solid gray;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+        .section p {
+            color: #333;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: gray;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Jannani Textiles & Vasatha Bhavan</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <h2>Discover Our Unique Collection & Delicious Treats</h2>
+    </section>
+    <section class="content" id="home">
+        <div class="section" id="about">
+            <h2>About Us</h2>
+            <p>Welcome to Jannani Textiles, a family-owned shop providing quality garments and materials for all age groups for 25 years. Alongside, enjoy the sweet and savory delights at Vasatha Bhavan, our sweets and bakery shop.</p>
+        </div>
+        <div class="section" id="products">
+            <h2>Our Products</h2>
+            <h3>Jannani Textiles</h3>
+            <p>Explore our wide range of textiles, including traditional and modern designs, crafted to perfection. Our unique collection is tailored to meet your style and comfort.</p>
+            <h3>Vasatha Bhavan</h3>
+            <p>Indulge in a variety of sweets and bakery items, made from the finest ingredients. From traditional sweets to contemporary bakery treats, we have something for everyone.</p>
+        </div>
+        <div class="section" id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to know more about our products, feel free to reach out to us. Visit our shops or contact us through our website.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Jannani Textiles & Vasatha Bhavan. All rights reserved.</p>
+    </footer>
+</body>
+</html>
